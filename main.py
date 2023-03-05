@@ -120,6 +120,7 @@ while True:
             pizzaorder1.date=datetime.now()
             siparis_onay["state"]="normal"
         else:
+            siparis_onay["state"]="disable"
             msg=messagebox.showinfo("Hata",message="Lutfen tum alanlari doldurdugunuzdan emin olunuz")
             
 

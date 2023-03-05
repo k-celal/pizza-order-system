@@ -1,7 +1,6 @@
 class Sos:
     Sauce=[]
     cost=0
-    size=""
     def __init__(self,args):
         self.Sauce=[]
         for i in args:
